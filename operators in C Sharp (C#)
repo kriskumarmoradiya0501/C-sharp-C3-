@@ -1,0 +1,63 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace hello
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+             * operators in c#
+             * 
+             * 1.arthmatic opertor
+             * 2.assignment operator
+             * 3.local operator
+             * 4.comparison operator
+             */
+
+            // arthmatic opretors
+
+            int a = 20;
+            int b = 10;
+            Console.WriteLine("A = "+a+"B = "+b);
+            Console.WriteLine("The value of a + b is : "+(a+b));
+            Console.WriteLine("The value of a - b is : " + (a - b));
+            Console.WriteLine("The value of a * b is : " + (a * b));
+            Console.WriteLine("The value of a / b is : " + (a / b));
+            Console.WriteLine("The value of a % b is : " + (a % b));
+
+            // assigment operators
+
+            int c = 20;
+            int d = 10;
+            Console.WriteLine("c = " + c + "d = " + d);
+            Console.WriteLine("The value of a+=b is : " + (c+=d));
+            Console.WriteLine("The value of a-=b is : " + (c-=d));
+            Console.WriteLine("The value of a*=b is : " + (c*=d));
+            Console.WriteLine("The value of a/= b is : " + (c/=d));
+            Console.WriteLine("The value of a%=b is : " + (c%=d));
+
+
+            // comparison operators
+
+            int A = 4;
+            int B=6;
+
+            Console.WriteLine("A = " + A + "B = " + B);
+            Console.WriteLine("The value of A<B is : " + (A<B));
+            Console.WriteLine("The value of A>B is : " + (A > B));
+            Console.WriteLine("The value of A<=B is : " + (A <= B));
+            Console.WriteLine("The value of A>=B is : " + (A >= B));
+            Console.WriteLine("The value of A==B is : " + (A == B));
+            Console.WriteLine("The value of A!=B is : " + (A != B));
+
+            
+
+            Console.ReadKey();
+        }
+    }
+}
