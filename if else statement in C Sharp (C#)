@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace hello
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.Write("Enter Your age : ");
+            int age;
+            age = int.Parse(Console.ReadLine());
+
+            if (age < 18)
+            {
+                Console.WriteLine("You can't vote!!");
+            }
+            else
+            {
+                Console.WriteLine("You can vote!");
+            }
+
+           
+            Console.ReadKey();
+        }
+    }
+}
