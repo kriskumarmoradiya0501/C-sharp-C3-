@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace hello
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int a1 = Math.Max(34, 356);
+            int a3 = Math.Min(34, 356);
+            Console.WriteLine(a1);
+            Console.WriteLine(a3);
+
+            int a2 = Math.Abs(a1 - 1);
+            Console.WriteLine(a2);
+            
+            Console.WriteLine($"Max number in 34,356 is {a1}. min number is {a3}");
+
+            
+            Console.ReadKey();
+        }
+    }
+}
